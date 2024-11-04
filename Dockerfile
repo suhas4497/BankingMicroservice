@@ -1,5 +1,5 @@
 FROM openjdk:alpine
 RUN mkdir /mydata
-ADD target/myproj-1.0-SNAPSHOT.jar /mydata/myproj-1.0-SNAPSHOT.jar
-CMD java -cp /mydata/myproj-1.0-SNAPSHOT.jar com.suhas.App
+ADD target//bankingservice-1.0-SNAPSHOT.jar /mydata//bankingservice-1.0-SNAPSHOT.jar
+CMD java -cp /mydata//bankingservice-1.0-SNAPSHOT.jar com.suhas.App
 
